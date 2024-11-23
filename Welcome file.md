@@ -30,9 +30,10 @@ also a syntatic sugar for nested binary operators,
 	x y [z-5] ;
 	\e.bmat
 	``` 	
-	becomes $\begin{bmatrix}
-	1 &  2 & 3x+7 \\\ x & y & z-5
-	\end{bmatrix}$
+	becomes $ \begin{bmatrix}
+1 & 2 & 3x+7 \\
+x & y & z-5 
+\end{bmatrix}  $
 	
 	
 ### 1. Plaintext Mode
