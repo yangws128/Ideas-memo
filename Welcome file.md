@@ -18,7 +18,7 @@ In math mode, especially,
 - `arg2 \.func[arg1]` 
 syntatic sugars for functions! 
 	- `[5-x]\.div[3]` equals to $\frac{5-x}{3}$
-	- `x\.func[y;z] = \func[x,y,z]`
+	- `x\.func[y;z] = \func[x;y;z]`
 - `[arg1 ; arg2 ; arg3]\foldr(foldl).func`
 also a syntatic sugar for nested binary operators,
 	- `[2;3;5;7]\right.pow` becomes $2^{3^{5^7}}$
@@ -32,17 +32,13 @@ also a syntatic sugar for nested binary operators,
 	``` 	
 	becomes $\begin{bmatrix}
 	1 &  2 & 3x+7 \\ x & y & z-5
-	\end{bmatrix}$,
+	\end{bmatrix}$ 
 	
-	and, alternative shorthand
-	`[[1;2;3]; [3;1;2]]\.pmat[2x3]` works too, 
-	becomes $\begin{pmatrix}
-	1 & 2 & 3 \\ 3 & 1 & 2 \end{pmatrix}$.
 	
 ### 1. Plaintext Mode
 - `\b.type_A` => begins [type A] block
 - `\e.type_A` => ends [type A] block
-- `\ [math] \` => inline math equation
+- <code>\` [math] \`</code> => inline math equation
 	- tex-displaystyle is accepted by default...
 - `\eq [block_eqns] \eq` => block-type math equation
 - `\n` => really makes new line! (enters are regarded as whitespace)
