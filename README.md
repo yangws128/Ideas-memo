@@ -8,4 +8,4 @@ $x_k$이 실수값이면 $\displaystyle x_k \cdot \frac{\rho_k}{\sqrt\pi}\cos(kx
 
 거리함수
 $\displaystyle d^2 (x,y) = \int_{-\pi}^{\pi} \Vert \vec{x} - \vec{y} \Vert^2 dx$
-= $\sum_{k} (x_k - y_k)$ (k is an index for a numeric) $+ \sum_{i} \rho_i^2\delta_{x_i y_i}$ (i is an index for a nominal)
+= $\sum_{k} (x_k - y_k) + \sum_{i} \rho_i^2\delta_{x_i y_i}$ (k index for numerics, i index for nominals)
