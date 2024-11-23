@@ -53,7 +53,7 @@ also a syntatic sugar for nested binary operators,
 - Because I hate "SHIFT" key, changed some mappings...
 	- `k\.4`   $\quad\quad k_4$
 	- `x\'2`  $\quad \quad x^2$
-	- `\l \br \cl \vert \vvert ` $\quad \quad ( \quad ] \quad \{ \quad  \vert \quad \Vert$
+	- `\l \br \cl \vert \vvert ` $\quad \quad ( \quad ] \quad$ { $\quad  \vert \quad \Vert$
 	- `\larrow \llarrow \lrarrow \lraarrow`  $\quad \quad \leftarrow \quad \Leftarrow \quad \leftrightarrow \quad \Leftrightarrow$
 	- under and over text: `\uo[f;under;over]`
 		- in example  `\sum\.uo[k=1;n\.pow[2]] f(k)` = $\displaystyle \sum_{k=1}^{n^2} f(k)$ 
