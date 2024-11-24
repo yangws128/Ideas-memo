@@ -48,7 +48,7 @@ x & y & z-5
 - `[a ; b ; c]` => becomes list!
 	- and inside `[ ]`, only ";" becomes argument delimiter, which means any expressions are regarded as blocks. (but still, you could create blocks manually inside a list like: `[a; [bx -c]; d]`)
 - Because I hate "SHIFT" key, changed some mappings...
-	- `k\.4`   $\quad\quad k_4$
+	- `k\,4`   $\quad\quad k_4$
 	- `x\'2`  $\quad \quad x^2$
 	- `\pl \br \cl \vert \vvert ` $\quad \quad ( \quad ] \quad$ { $\quad  \vert \quad \Vert$
 	- `\larrow \llarrow \lrarrow \lraarrow`  $\quad \quad \leftarrow \quad \Leftarrow \quad \leftrightarrow \quad \Leftrightarrow$
