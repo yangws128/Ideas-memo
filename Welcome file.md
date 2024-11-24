@@ -21,8 +21,8 @@ syntatic sugars for functions!
 	- `x\.func[y;z] = \func[x;y;z]`
 - `[arg1 ; arg2 ; arg3]\foldr(foldl).func`
 also a syntatic sugar for nested binary operators,
-	- `[2;3;5;7]\right.pow` becomes $2^{3^{5^7}}$
-	- `[2;3;5;7]\left.pow` becomes ${{2^3}^5}^7 = 2^{3\times 5 \times 7}$
+	- `[2;3;5;7]\foldr.pow` becomes $2^{3^{5^7}}$
+	- `[2;3;5;7]\foldl.pow` becomes ${{2^3}^5}^7 = 2^{3\times 5 \times 7}$
 - matrix: 
 	``` 
 	\b.bmat
