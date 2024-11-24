@@ -15,7 +15,7 @@ no-argument functions (which should not be called as functions) are regarded as 
 calls function with arguments
 
 In math mode, especially,
-- `arg2 \.func[arg1]` 
+- `arg1 \.func[arg2; ...]` 
 syntatic sugars for functions! 
 	- `[5-x]\.div[3]` equals to $\frac{5-x}{3}$
 	- `x\.func[y;z] = \func[x;y;z]`
