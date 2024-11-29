@@ -1,5 +1,6 @@
 # Ideas-memo
 아이디어 메모장..
+문제는 이것들이 무슨 '수학적 의미'를 지닐 지 모르겠다는 사실입니다.
 
 ## 1. 실수와 카테고리 변수를 interop을 위한 distance-preserving(?) mapping
 
